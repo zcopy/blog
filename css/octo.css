@@ -12,7 +12,8 @@ html {
 }
 
 ol, ul {
-    list-style: none
+    list-style: none;
+    padding-left: 2em;
 }
 
 table {
@@ -20,10 +21,28 @@ table {
     border-spacing: 0
 }
 
+th {
+    border-bottom: 3px solid black;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    padding: 0.5em;
+}
+
+td {
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    padding: 0.5em;
+}
+
+tr {
+    border-right: 1px solid black;
+}
+
 caption, th, td {
     text-align: left;
     font-weight: normal;
-    vertical-align: middle
+    vertical-align: middle;
 }
 
 q, blockquote {
